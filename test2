@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+setlocale(LC_ALL,"Turkish");
+int s1,s2,ort;
+cout<< "Sayı girmek istiyorum";
+cin>> s1;
+cout<< "ikinci sayıyı giriyom";
+cin>> s2;
+ort = (s1+s2)/2;
+cout<< "Sonuc="<<ort;
+}
